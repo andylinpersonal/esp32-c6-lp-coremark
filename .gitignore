@@ -1,0 +1,14 @@
+# exclude all
+*
+
+# but include
+!CMakeLists.txt
+!sdkconfig.defaults
+!sdkconfig.defaults*
+!.clang-format
+!.gitignore
+
+!main
+!main/**
+
+!coremark
