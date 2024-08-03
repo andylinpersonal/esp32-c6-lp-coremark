@@ -15,48 +15,48 @@
 
 ```
 -Os
-I (26084) test: LP Core Coremark/MHz: 1.577193
+I (38086) test: LP Core Coremark/MHz: 1.606688
    text    data     bss     dec     hex filename
-   8358       8    2040   10406    28a6 build/esp-idf/main/lp_coremark/lp_coremark.elf
+   7234      24    2040    9298    2452 build/esp-idf/main/lp_coremark/lp_coremark
 
 -Os -msave-restore
-I (19084) test: LP Core Coremark/MHz: 1.546515
+I (26086) test: LP Core Coremark/MHz: 1.567058
    text    data     bss     dec     hex filename
-   8110       8    2040   10158    27ae build/esp-idf/main/lp_coremark/lp_coremark.elf
+   6996      24    2040    9060    2364 build/esp-idf/main/lp_coremark/lp_coremark.elf
 
 -O2
-I (17084) test: LP Core Coremark/MHz: 2.055680
+I (28086) test: LP Core Coremark/MHz: 2.039459
    text    data     bss     dec     hex filename
-   9496       8    2040   11544    2d18 build/esp-idf/main/lp_coremark/lp_coremark.elf
+   8356      24    2040   10420    28b4 build/esp-idf/main/lp_coremark/lp_coremark.elf
 
 -O2 -msave-restore
-I (23084) test: LP Core Coremark/MHz: 2.015708
+I (34086) test: LP Core Coremark/MHz: 1.995059
    text    data     bss     dec     hex filename
-   9252       8    2040   11300    2c24 build/esp-idf/main/lp_coremark/lp_coremark.elf
+   8122      24    2040   10186    27ca build/esp-idf/main/lp_coremark/lp_coremark.elf
 
 -O3
-I (22085) test: LP Core Coremark/MHz: 2.160275
+I (23086) test: LP Core Coremark/MHz: 2.153785
    text    data     bss     dec     hex filename
-  11142       8    2040   13190    3386 build/esp-idf/main/lp_coremark/lp_coremark.elf
-
--O3 -fno-jump-tables
-I (22085) test: LP Core Coremark/MHz: 2.027998
-   text    data     bss     dec     hex filename
-  11182       8    2040   13230    33ae build/esp-idf/main/lp_coremark/lp_coremark.elf
-
--O3 -fno-jump-tables -fno-tree-switch-conversion
-I (22085) test: LP Core Coremark/MHz: 2.027998
-   text    data     bss     dec     hex filename
-  11182       8    2040   13230    33ae build/esp-idf/main/lp_coremark/lp_coremark.elf
-
--Ofast
-I (26085) test: LP Core Coremark/MHz: 2.160275
-   text    data     bss     dec     hex filename
-  11142       8    2040   13190    3386 build/esp-idf/main/lp_coremark/lp_coremark.elf
+  10002      24    2040   12066    2f22 build/esp-idf/main/lp_coremark/lp_coremark.elf
 
 -O3 -msave-restore
-I (24085) test: LP Core Coremark/MHz: 2.165428
+I (23086) test: LP Core Coremark/MHz: 2.125598
    text    data     bss     dec     hex filename
-  10942       8    2040   12990    32be build/esp-idf/main/lp_coremark/lp_coremark.elf
+   9812      24    2040   11876    2e64 build/esp-idf/main/lp_coremark/lp_coremark.elf
+
+-O3 -fno-jump-tables
+I (18086) test: LP Core Coremark/MHz: 2.035384
+   text    data     bss     dec     hex filename
+  10042      24    2040   12106    2f4a build/esp-idf/main/lp_coremark/lp_coremark.elf
+
+-O3 -fno-jump-tables -fno-tree-switch-conversion
+I (24086) test: LP Core Coremark/MHz: 2.035384
+   text    data     bss     dec     hex filename
+  10042      24    2040   12106    2f4a build/esp-idf/main/lp_coremark/lp_coremark.elf
+
+-Ofast
+I (54086) test: LP Core Coremark/MHz: 2.153785
+   text    data     bss     dec     hex filename
+  10002      24    2040   12066    2f22 build/esp-idf/main/lp_coremark/lp_coremark.elf
 
 ```
